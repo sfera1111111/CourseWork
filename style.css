@@ -7,7 +7,7 @@ body {
 .Header-4{
   background-image: url(./foto/vid.png);
   background-repeat: no-repeat;
-  max-width: 1440px;
+  max-width: none ;
   height: 785px;  
 }
 .container { 
