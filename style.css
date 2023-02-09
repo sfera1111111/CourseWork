@@ -160,6 +160,10 @@ ul {
   color: white;
   list-style: none;
 }
+a {
+  color: white;
+  flex-direction: row;
+}
 .incom{
   position: absolute;
   width: 24px;
@@ -304,8 +308,6 @@ h5{
   width: 232px;
   height: 203px;
 }
-
-
 .about-2{
   width: 1440px;
   height: 911px;
@@ -359,7 +361,6 @@ h5{
 .ask{
   margin-left: 5px;
 }
-
 .prgh5{
   color: black;
 }
@@ -376,8 +377,6 @@ h6{
   color: white;
   font-size: 14px;
 }
-
-
 .contact-4{
   width: 1440px;
   height: 808px;
