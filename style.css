@@ -144,8 +144,11 @@ margin: 0;
   margin-left: 190px;
   margin-top: 2px;
 }
+.icn1{
+  background-size: 10px;
+}
 .icn2{
-margin-left: 20px;
+  margin-left: 15px;
 }
 ul {
   display: flex;
@@ -170,7 +173,7 @@ a {
   position: absolute;
   width: 24px;
   height: 13.71px;
-  left: 1380px;
+  left: 1430px;
   top: 45px;
   
 }
