@@ -6,9 +6,13 @@ body {
 }
 .Header-4{
   background-image: url(./foto/vid.png);
-  background-repeat: no-repeat;
-  max-width: none ;
-  height: 785px;  
+  background-repeat:no-repeat;
+  max-width: none;
+  height: 784px;  
+  margin: 0;
+}
+.background {
+  background-size: 100% 100%;
 }
 .container { 
   max-width: 980px;
@@ -76,12 +80,11 @@ padding-top: 130px;
 h1{
   font-size: 61px;
   color: white;
-
+  margin: 0px;
 }
 h4{
   font-size: 28px;
   color: white;
-  font-size: 28px;
 }
 .cta{
   display: flex;
@@ -138,9 +141,8 @@ margin: 0;
   position: absolute;
   width: 20px;
   height: 20px;
-  left: calc(50% - 20px/2 + 142.5px);
-  top: calc(50% - 20px/2 + 0px);
-
+  margin-left: 190px;
+  margin-top: 2px;
 }
 .icn2{
 margin-left: 20px;
@@ -184,7 +186,7 @@ a {
 
 
 .features-5{
-  max-width: 1440px;
+  max-width: none;
   height: 529px;
   background: #3255DD;
 }
@@ -251,7 +253,7 @@ h5{
 }
 
 .features-7{
-  max-width: 1440px;
+  max-width: none;
   height: 699px;
   background: #636A83;
 }
@@ -309,7 +311,7 @@ h5{
   height: 203px;
 }
 .about-2{
-  width: 1440px;
+  max-width: none;
   height: 911px;
   background: #9EA5BF;
 }
@@ -378,7 +380,7 @@ h6{
   font-size: 14px;
 }
 .contact-4{
-  width: 1440px;
+  max-width: none;
   height: 808px;
   background: #392C86;
 }
@@ -441,9 +443,8 @@ h6{
 .yellow{
   color: #FFA62B;
 }
-
 .footer-5{
-  width: 1440px;
+  max-width: none;
   height: 488px;
   background: #1C7A8D;
 }
@@ -456,12 +457,6 @@ li{
 }
 .item{
   margin-top: 200px;
-}
-.made{
-  color: white;
-  margin: 0;
-  padding: 10px;
-  margin-left: 210px;
 }
 .feature{
   margin: 15px;
@@ -490,18 +485,17 @@ li{
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
-  width: 1050px;
   height: 74px;
 }
-.col-md-7{
+.md-7{
   margin-top: 0px;
-  margin-left: 530px;
+  margin-left: 1030px;
 }
 .col-md{
   display: flex;
   align-items: flex-start;
   position: absolute;
-  width: 1440px;
+  max-width: none;
   height: 74px;
   background-color: #252B42;
   margin-top: 250px;
@@ -509,4 +503,7 @@ li{
 .col-md{
   padding: 20px 20px;
   left: 0;
+}
+.made{
+  color: white;
 }
