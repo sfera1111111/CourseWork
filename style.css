@@ -150,6 +150,9 @@ margin: 0;
 .icn2{
   margin-left: 15px;
 }
+.links {
+  margin-left: -180px;
+}
 ul {
   display: flex;
   flex-direction: row;
@@ -159,11 +162,10 @@ ul {
   position: absolute;
   width: 280px;
   height: 24px;
-  left: calc(50% - 280px/2 - 46.5px);
-  top: calc(50% - 24px/2);
   margin: 0; 
   color: white;
   list-style: none;
+  margin: 0;
 }
 a {
   color: white;
@@ -411,12 +413,10 @@ h6{
   flex-direction: column;
   align-items: center;
   padding: 50px 40px;
-  gap: 15px;
-  width: 328px;
   height: 333px;
   background: #FFFFFF;
-  margin-left: 74px;
-  margin-top: 60px;
+  margin-top: 50px;
+  margin-left: 94px;
 }
 .icn-xl{
   margin-left: 50px;
@@ -448,7 +448,7 @@ h6{
 }
 .footer-5{
   max-width: none;
-  height: 488px;
+  height: 455px;
   background: #1C7A8D;
 }
 nav{
@@ -467,9 +467,8 @@ li{
 .col-md-2{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  margin-left: 40px;
   padding: 0px;
-  gap: 20px;
   width: 248px;
   height: 170px;
   color: white;
@@ -484,29 +483,20 @@ li{
   height: 152.5px;
 }
 .resevit{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: absolute;
   height: 74px;
 }
 .md-7{
-  margin-top: 0px;
-  margin-left: 1030px;
+  margin-left: 1006px;
+  margin-top: -20px;
 }
 .col-md{
-  display: flex;
   align-items: flex-start;
-  position: absolute;
-  max-width: none;
   height: 74px;
   background-color: #252B42;
-  margin-top: 250px;
-}
-.col-md{
-  padding: 20px 20px;
-  left: 0;
+  padding: 30px 20px;
+  width: 100%;
 }
 .made{
   color: white;
+  margin-left: -550px;
 }
