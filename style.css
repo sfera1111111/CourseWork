@@ -3,6 +3,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 .Header-4{
   background-image: url(./foto/vid.png);
@@ -145,21 +146,19 @@ margin: 0;
   margin-top: 2px;
 }
 .icn1{
-  background-size: 10px;
+  width: 20px;
+  margin-left: 15px;
 }
 .icn2{
   margin-left: 15px;
 }
 .links {
+  margin-top: -7px;
   margin-left: -180px;
 }
 ul {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 0px;
-  gap: 21px;
-  position: absolute;
   width: 280px;
   height: 24px;
   margin: 0; 
@@ -167,9 +166,12 @@ ul {
   list-style: none;
   margin: 0;
 }
+li {
+  margin: 10px;
+}
 a {
   color: white;
-  flex-direction: row;
+  text-decoration: none;
 }
 .incom{
   position: absolute;
@@ -181,10 +183,8 @@ a {
 }
 .navder-brand {
   position: absolute;
-  max-width: 187px;
-  max-height: 58px;
-  left: 260px;
-  top: 45px;
+  left: 290px;
+  top: 40px;
   color: white;
   font-size: 24px;
 }
@@ -212,7 +212,7 @@ h2{
 }
 p{
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 auto;
   padding: 5px;
   text-align: center;
@@ -223,7 +223,6 @@ p{
   flex-direction: column;
   align-items: center;
   padding: 30px 40px;
-  gap: 10px;
   width: 310px;
   height: 142px;
   background-color: white;
@@ -231,10 +230,6 @@ p{
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
   
-}
-h5{
-  color:  #00A0C1;
-  margin: 0;
 }
 .blue1{
  color: black;
@@ -287,15 +282,6 @@ h5{
   width: 230px;
   height: 341px;
   background: #FFFFFF;
-}
-h5{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-  color: #252B42;
-  padding: 9px;
 }
 .paragraph{
   font-family: 'Montserrat';
@@ -365,6 +351,10 @@ h5{
 .imgznak{
   margin-top: 10px;
 }
+.imgznak2{
+  margin-top: 10px;
+  margin-left: 20px;
+}
 .ask{
   margin-left: 5px;
 }
@@ -377,12 +367,16 @@ h5{
 h5{
   color: white;
   font-size: 18px;
+  margin: 0;
+  font-style: normal;
+  letter-spacing: 0.1px;
+  padding: 9px;
 }
 h6{
-  margin: 0;
+  margin-top: 0;
+  margin-left: 10px;
   font-size: 14px;
-  color: white;
-  font-size: 14px;
+  color: white; 
 }
 .contact-4{
   max-width: none;
@@ -426,22 +420,25 @@ h6{
   flex-direction: column;
   align-items: center;
   padding: 10px 20px;
-  gap: 10px;
   width: 160px;
   height: 44px;
   border: 1px solid #FFA62B;
   border-radius: 5px;
+  margin-left: 10px;
 }
 .white{
   color: #252B42;
+  margin: 0;
 }
 .white2{
+  margin: 0;
   color: #252B42;
   margin-left: 15px;
 }
 .white3{
+  margin: 15px;
   color: #252B42;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .yellow{
   color: #FFA62B;
@@ -455,14 +452,16 @@ nav{
   list-style: none;
   margin: 0px;
 }
-li{
-  margin: 10px;
-}
 .item{
   margin-top: 200px;
 }
 .feature{
-  margin: 15px;
+  margin: 0px;
+  display: flex;
+}
+.link{
+  height: 20px;
+  width: 20px;
 }
 .col-md-2{
   display: flex;
@@ -486,7 +485,7 @@ li{
   height: 74px;
 }
 .md-7{
-  margin-left: 1006px;
+  margin-left: 1143px;
   margin-top: -20px;
 }
 .col-md{
@@ -498,5 +497,5 @@ li{
 }
 .made{
   color: white;
-  margin-left: -550px;
+  margin-left: -500px;
 }
