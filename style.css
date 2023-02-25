@@ -24,8 +24,7 @@ body {
 }
 .row { 
   display: flex;
- /* flex-wrap: wrap;*/
- margin: 0 auto;
+  margin: 0 auto;
 }
 [class^="col"] {
   padding: 0 10px;
@@ -159,12 +158,10 @@ margin: 0;
 ul {
   display: flex;
   padding: 0px;
-  width: 280px;
-  height: 24px;
-  margin: 0; 
+  margin-left: 80px;
+  margin-top: 0; 
   color: white;
   list-style: none;
-  margin: 0;
 }
 li {
   margin: 10px;
@@ -188,8 +185,6 @@ a {
   color: white;
   font-size: 24px;
 }
-
-
 .features-5{
   max-width: none;
   height: 529px;
@@ -498,4 +493,25 @@ nav{
 .made{
   color: white;
   margin-left: -500px;
+}
+@media (max-width: 1007px) {
+  .Header-4 {
+    height: 100%;
+  }
+  .agent {
+    width: 100%;
+    height: 100%;
+  }
+  .features-5 {
+    height: 100%;
+  }
+  .display_block {
+    display: block;
+  }
+  .features-7 {
+    height: 100%;
+  }
+  .about-2 {
+    height: 100%;
+  }
 }
