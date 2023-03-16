@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: #1C7A8D;
+  font-family: sans-serif;
   margin: 0;
 }
 .Header-4{
@@ -86,6 +87,59 @@ h4{
   font-size: 28px;
   color: white;
 }
+
+.navdar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  font-size: 18px;
+  margin-left: -120px;
+  margin-top: 0;
+}
+.menu li {
+   padding: 0px 10px;
+}
+.menu li a:hover {
+  transition: all .3s;
+  color: rgb(181, 176, 176);
+}
+#checkbox_toggle {
+  display: none;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+  margin: 0;
+}
+.hamburger_line {
+  background-color: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+}
+.hamburger_line::before,
+.hamburger_line::after{
+  background-color: white;
+  display: block;
+  position: absolute;
+  content: '';
+  transition: all .3s;
+  width: 100%;
+  height: 100%;
+}
+.hamburger_line::before {
+  top: 7px;
+}
+.hamburger_line::after {
+  top: -7px;
+}
+
 .cta{
   display: flex;
   margin: 0px;
@@ -164,7 +218,8 @@ ul {
   list-style: none;
 }
 li {
-  margin: 10px;
+  margin: 5px;
+  text-decoration: none;
 }
 a {
   color: white;
@@ -519,5 +574,47 @@ nav{
   }
   .col-md-4 {
     width: 350px;
+  }
+
+  .menu {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: gray;
+    text-align: center;
+    right: 0;
+    left: 0;
+  }
+  .menu li a {
+    color: gray;
+    display: block;
+    padding: 15px;
+  }
+  .menu li {
+    transition: all .5s;
+  }
+  .menu li:hover {
+    background-color: gray;
+  }
+  #checkbox_toggle:checked ~ .menu {
+   display: block;
+   max-width: 100%;
+   transition: all .5s;
+  }
+  .hamburger {
+    display: block;
+    padding: 20px 0;
+  }
+  #checkbox_toggle:checked ~ .hamburger .hamburger_line {
+    background-color: transparent;
+  }
+  #checkbox_toggle:checked ~ .hamburger .hamburger_line::before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  #checkbox_toggle:checked ~ .hamburger .hamburger_line::after {
+    transform: rotate(45deg);
+    top: 0;
   }
 }
